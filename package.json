@@ -1,0 +1,11 @@
+{
+  "name": "js-hw-08",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "bk-1"
+  },
+  "author": "",
+  "license": "ISC"
+}
