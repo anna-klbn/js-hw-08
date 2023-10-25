@@ -1,11 +1,32 @@
 {
   "name": "js-hw-08",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
-  "main": "index.js",
+  "homepage": "https://goitacademy.github.io/parcel-project-template",
   "scripts": {
-    "test": "bk-1"
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /JS-HW-08/"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+  },
+  "keywords": [],
+  "author": "Anna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+  },
+  "dependencies": {
+    "lodash.throttle": "^4.1.1",
+    "modern-normalize": "^1.1.0",
+    "vimeo": "^2.3.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
 }
